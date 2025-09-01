@@ -70,3 +70,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="date" nmae="date" required><br>
     <button type="submit">Click me so NOTHING happens!</button>
 </form>
+<a href="notindex.php">Click this to go nowhere!</a>
