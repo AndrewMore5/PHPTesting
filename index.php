@@ -52,6 +52,13 @@ while ($i <= 5){
 ?>
 
 
+<?php 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
+    $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
+    $date = filter_input(INPUT_POST, "date");
+}
+?>
 <form action="" method="GET">
     <label>Name:</label>
     <input type="text" name="name" required>
