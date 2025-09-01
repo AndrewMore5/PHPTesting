@@ -50,3 +50,15 @@ while ($i <= 5){
     $i++;
 }
 ?>
+
+
+<form action="" method="GET">
+    <label>Name:</label>
+    <input type="text" name="name" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Date:</label>
+    <input type="date" nmae="date" required>
+</form>
