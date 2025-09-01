@@ -1,3 +1,6 @@
+<?php 
+    echo "This is outside the doctype! <br>";
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,7 +12,10 @@
     <?php
         echo "Hello PHP <br>";
         echo "This should be on a new line? <br>";
-        echo "Value 1" . 'Thing 2' . "Thing 3!!!";     
+        echo "Value 1" . 'Thing 2' . "Thing 3!!! <br>";     
     ?>
 </body>
 </html>
+<?php 
+    echo "This is after the html tag! <br>";
+?>
