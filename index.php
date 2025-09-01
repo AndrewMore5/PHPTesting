@@ -20,7 +20,8 @@
      */
     $name = "Richard";
     $location = "corner";
-    echo "My name is " . $name . " And I'm sitting in the " . $location . "!<br>";
+    echo "My name is " . $name . " and I'm sitting in the " . $location . "!<br>";
+    echo "My name is not {$name} and I'm not sitting in the {$location}";
     ?>
 </body>
 </html>
