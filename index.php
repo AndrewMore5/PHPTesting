@@ -25,11 +25,22 @@
     echo gettype($name). "<br>";
     var_dump($name);
     echo "<br>";
-    var_dump(is_string($name));
+    var_dump(is_string($name)); //Can be used to check arrays, doubles, booleans, integers etc
     echo "<br>"
     ?>
 </body>
 </html>
 <?php 
-    echo "This is after the html tag! <br>";
+echo "<br><br><br>";
+echo "This is after the html tag! <br>";
+$array1 = [
+    'ski' => 'G-Tol',
+    'Tan' => "TV",
+    'AST' => [
+        'Over',
+        'Dutch',
+        'Inter'
+    ]
+    ];
+echo $array1['ski'] . "<br>"
 ?>
