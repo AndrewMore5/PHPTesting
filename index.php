@@ -23,6 +23,10 @@
     echo "My name is " . $name . " and I'm sitting in the " . $location . "!<br>";
     echo "My name is not {$name} and I'm not sitting in the {$location}<br>"; // Using '' will show {$name} not the variable
     echo gettype($name). "<br>";
+    var_dump($name);
+    echo "<br>";
+    var_dump(is_string($name));
+    echo "<br>"
     ?>
 </body>
 </html>
