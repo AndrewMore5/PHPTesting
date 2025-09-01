@@ -7,7 +7,9 @@
 </head>
 <body>
     <?php
-        echo "Hello PHP";     
+        echo "Hello PHP <br>";
+        echo "This should be on a new line? <br>";
+        echo "Value 1" . 'Thing 2' . "Thing 3!!!";     
     ?>
 </body>
 </html>
