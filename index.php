@@ -6,6 +6,8 @@
         <tite>Document</title>
 </head>
 <body>
-    Test
+    <?php
+        echo "Hello PHP";     
+    ?>
 </body>
-</html
+</html>
