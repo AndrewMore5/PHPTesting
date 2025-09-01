@@ -42,5 +42,11 @@ $array1 = [
         'Inter'
     ]
     ];
-echo $array1['ski'] . "<br>"
+echo $array1['ski'] . "<br>";
+// For Loop
+$i = 1;
+while ($i <= 5){
+    echo $i . " ";
+    $i++;
+}
 ?>
