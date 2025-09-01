@@ -14,7 +14,7 @@ if ($name && $email && $phone && isset($_FILES['image'])) {
     if (!is_dir($uploadsDir)) {
         mkdir($uploadsDir, 0777, true);
     }
-    $imageName = time() . "_" .basename($_FILES["image"]["name "]);
+    $imageName = time() . "_" .basename($_FILES["image"]["name"]);
     $imagePath = $uploadsDir . $imageName;
 
     if (move_uploaded_file($_FILES['image']['tmp_name'], $imagePath)) {
