@@ -51,23 +51,4 @@ while ($i <= 5){
 }
 ?>
 
-
-<?php 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
-    $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-    $date = filter_input(INPUT_POST, "date");
-}
-?>
-<form action="" method="GET">
-    <label>Name:</label>
-    <input type="text" name="name" required>
-
-    <label>Email:</label>
-    <input type="email" name="email" required>
-
-    <label>Date:</label>
-    <input type="date" nmae="date" required><br>
-    <button type="submit">Click me so NOTHING happens!</button>
-</form>
 <a href="notindex.php">Click this to go nowhere!</a>
