@@ -60,5 +60,6 @@ while ($i <= 5){
     <input type="email" name="email" required>
 
     <label>Date:</label>
-    <input type="date" nmae="date" required>
+    <input type="date" nmae="date" required><br>
+    <button type="submit">Click me so NOTHING happens!</button>
 </form>
