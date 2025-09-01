@@ -21,7 +21,8 @@
     $name = "Richard";
     $location = "corner";
     echo "My name is " . $name . " and I'm sitting in the " . $location . "!<br>";
-    echo "My name is not {$name} and I'm not sitting in the {$location}";
+    echo "My name is not {$name} and I'm not sitting in the {$location}<br>"; // Using '' will show {$name} not the variable
+    echo gettype($name). "<br>";
     ?>
 </body>
 </html>
