@@ -7,7 +7,7 @@ $contactsFile = 'contacts.json';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
     $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-    $date = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_NUMBER_INT);
+    $phone = filter_input(INPUT_POST, "phone", FILTER_SANITIZE_NUMBER_INT);
 
 
 if ($name && $email && $phone && isset($_FILES['image'])) {
@@ -57,7 +57,7 @@ if ($name && $email && $phone && isset($_FILES['image'])) {
     <input type="email" name="email">
 
     <label>Phone:</label>
-    <input type="text" name="phone">
+    <input type="text" name="">
 
     <label>Contact Image:</label>
     <input type="file" name="image" accept="image/*" required>
